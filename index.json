@@ -1,0 +1,43 @@
+[
+  {
+    "id": "corporations",
+    "title": "Corporations",
+    "keywords": [
+      "corporations",
+      "lore",
+      "stromberg",
+      "biotechnica",
+      "syntek",
+      "true life",
+      "metalink",
+      "holo"
+    ],
+    "path": "pages/corporations.json"
+  },
+  {
+    "id": "new-bergen/districts",
+    "title": "Districts",
+    "keywords": [
+      "districts",
+      "erstwhile",
+      "little",
+      "scandinavia",
+      "eden",
+      "sierra",
+      "grand",
+      "central",
+      "fringes"
+    ],
+    "path": "pages/new-bergen/districts.json"
+  },
+  {
+    "id": "premise",
+    "title": "Premise",
+    "keywords": [
+      "premise",
+      "plot",
+      "stromberg"
+    ],
+    "path": "pages/premise.json"
+  }
+]
