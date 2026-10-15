@@ -190,11 +190,11 @@
   },
   "active": "7f1a2215c2432e83",
   "lastOpenFiles": [
+    "package.json~",
     "docs/Profile fields.md",
     "docs/Premise.md",
     "docs/Corporations.md",
     "docs/New Bergen/Districts.md",
-    "package.json~",
     "Welcome.md",
     "dist/index.json",
     "dist",
@@ -224,7 +224,6 @@
     "docs/Starlight/SAGE.md",
     "docs/Starlight/Districts.md",
     "docs/New Bergen/New Bergen.md",
-    "docs/Groups.md",
-    "docs/FAQ.md"
+    "docs/Groups.md"
   ]
 }

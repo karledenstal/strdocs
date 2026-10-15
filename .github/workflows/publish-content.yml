@@ -2,15 +2,8 @@ name: Publish content JSON
 
 on:
   push:
-    branches: [master]
-    paths:
-      - 'docs/**'
-      - 'scripts/generate-content.js'
-      - 'test/**'
-      - 'package.json'
-      - 'package-lock.json'
-      - '.github/workflows/publish-content.yml'
-  workflow_dispatch:
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
@@ -51,6 +44,6 @@ jobs:
           cp -a dist/. "$publish_dir/"
           git -C "$publish_dir" add -A
           if ! git -C "$publish_dir" diff --cached --quiet; then
-            git -C "$publish_dir" commit -m 'Publish content JSON'
+            git -C "$publish_dir" commit -m "Publish content JSON for $GITHUB_REF_NAME"
             git -C "$publish_dir" push origin HEAD:content-data
           fi
