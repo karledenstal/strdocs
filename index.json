@@ -15,6 +15,17 @@
     "path": "pages/corporations.json"
   },
   {
+    "id": "groups",
+    "title": "Groups",
+    "keywords": [
+      "human",
+      "lunarborn",
+      "biosynt-7b",
+      "engineer"
+    ],
+    "path": "pages/groups.json"
+  },
+  {
     "id": "new-bergen/districts",
     "title": "Districts",
     "keywords": [
