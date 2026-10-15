@@ -1,4 +1,11 @@
-...
+---
+public: true
+keywords:
+  - human
+  - lunarborn
+  - biosynt-7b
+  - engineer
+---
 ## Human
 
 Humans are humans. They can live in New Bergen or on Starlight. Due to the technical and medicinal advancements over the years, humans can live longer and are overall healthier. They still are not invincible or necessarily stronger or faster than our modern counterpart. Human limitations still affect them. Unfortunately, living longer also means having to work for much longer before retirement.
@@ -28,10 +35,6 @@ Engineers have no biological mother or father. While their seed ultimately draws
 **Naming conventions:** _Open._
 
 ---
-## Fixer
-
-Fixers are the glue that keeps the world running. 
-
 ## Wiccan
 
 Although not part of a religious belief, Wiccans is the common name in New Bergen for humans with what is considered the _sight_ or _intuition._ Whether it's sensing others aura or getting premonitions, they mainly use _tarot_ and _crystals_. Some people believe them heavily and uses their "gift" to get a hint of the future, while others are skeptical. Biotechnica in particular is vocally against the phenomenon. Whether it comes from the water, radiation or something else is unknown. Wiccans can live in Starlight or in New Bergen. 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Premise.md",
+                "file": "docs/Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Premise"
+              "title": "Groups"
             }
           }
         ]
@@ -190,11 +190,13 @@
   },
   "active": "7f1a2215c2432e83",
   "lastOpenFiles": [
+    "docs/New Bergen/New Bergen.md",
+    "docs/New Bergen/Districts.md",
+    "docs/Groups.md",
+    "docs/Premise.md",
     "package.json~",
     "docs/Profile fields.md",
-    "docs/Premise.md",
     "docs/Corporations.md",
-    "docs/New Bergen/Districts.md",
     "Welcome.md",
     "dist/index.json",
     "dist",
@@ -222,8 +224,6 @@
     "README.md",
     "docs/Starlight/Starlight.md",
     "docs/Starlight/SAGE.md",
-    "docs/Starlight/Districts.md",
-    "docs/New Bergen/New Bergen.md",
-    "docs/Groups.md"
+    "docs/Starlight/Districts.md"
   ]
 }

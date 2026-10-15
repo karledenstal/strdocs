@@ -11,7 +11,6 @@ keywords:
   - central
   - fringes
 ---
-
 ...
 ## Erstwhile
 
