@@ -1,0 +1,56 @@
+name: Publish content JSON
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'docs/**'
+      - 'scripts/generate-content.js'
+      - 'test/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/publish-content.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-data
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build:content
+      - name: Publish generated files to content-data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          publish_dir="$RUNNER_TEMP/content-data"
+          git worktree add --detach "$publish_dir" HEAD
+          if git ls-remote --exit-code --heads origin content-data > /dev/null; then
+            git fetch origin 'refs/heads/content-data:refs/remotes/origin/content-data'
+            git -C "$publish_dir" switch -c content-data --track origin/content-data
+          else
+            git -C "$publish_dir" switch --orphan content-data
+          fi
+          find "$publish_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a dist/. "$publish_dir/"
+          git -C "$publish_dir" add -A
+          if ! git -C "$publish_dir" diff --cached --quiet; then
+            git -C "$publish_dir" commit -m 'Publish content JSON'
+            git -C "$publish_dir" push origin HEAD:content-data
+          fi

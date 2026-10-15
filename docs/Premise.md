@@ -1,0 +1,34 @@
+---
+public: true
+keywords:
+  - premise
+  - plot
+  - stromberg
+---
+**The year is 2118, and humanity has come a long way.**
+
+Seventy years ago, Stromberg Inc. arrived in the small American town of New Bergen. Their studies had identified the area as an ideal location for aerospace development — and, perhaps just as importantly, there wasn't much there to get in the way.
+
+What followed transformed New Bergen forever. Driven by Stromberg's rapid expansion, the little town was rebuilt, expanded and eventually swallowed by a sprawling metropolis of high-rises, rapid transit and technological industry. Today, New Bergen is one of the world's leading centers for aerospace, engineering and medicine, home to millions of people and some of humanity's most ambitious projects.
+
+None were quite as ambitious as **STR-L18**.
+
+Established on the Moon as a Stromberg research and industrial settlement, L18 spent years housing the scientists, engineers and workers laying the groundwork for permanent human habitation beyond Earth. Somewhere along the way, those workers gave their home a less clinical name.
+
+**Starlight.**
+
+Thirty years ago, Stromberg made it official. STR-L18 would open its doors to civilian settlement, and Starlight became humanity's first city on the Moon.
+
+Today, the journey that once demanded rockets, extensive training and no small amount of courage begins in New Bergen aboard Stromberg's massive Space Elevator. From its orbital terminus, regular lunar shuttles carry residents, workers and tourists onward to Starlight.
+
+For some, the Moon is still the frontier. For others, it's simply home.
+
+A generation has now been born beneath Starlight's artificial skies. Humans share their world with increasingly sophisticated synthetics. Medicine can replace what once seemed irreplaceable, corporations have grown powerful enough to shape entire cities, and questions once reserved for science fiction have become matters of employment law, healthcare and everyday life.
+
+But for all that has changed, people haven't.
+
+They still fall in love. They still go to work. They still get drunk, argue with their neighbors, worry about rent, make terrible decisions and try to figure out what the hell they're doing with their lives.
+
+Whether beneath the open skies of New Bergen or looking back at Earth from the surface of the Moon, life goes on.
+
+**Welcome to Starlight.**
